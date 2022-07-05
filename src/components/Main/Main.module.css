@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 80%;
+  width: 80%; */
+  background: darkcyan;
+  height: calc(100vh - 230px);
+}
+
+@media all and (min-width: 1024px) {
+  .main {
+    flex-basis: 80%;
+    width: 80%;
+  }
+}

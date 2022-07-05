@@ -1,0 +1,15 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 20%;
+  width: 20%;
+  min-height: calc(100vh - 150px); */
+  background-color: aquamarine;
+}
+
+@media all and (min-width: 1024px) {
+  .aside {
+    flex-basis: 20%;
+    width: 20%;
+  }
+}

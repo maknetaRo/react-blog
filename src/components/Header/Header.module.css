@@ -1,0 +1,14 @@
+.header {
+  height: 150px;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+  padding-bottom: 16px;
+}
+.title {
+  padding-block: 24px;
+}
